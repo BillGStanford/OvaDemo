@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ova - Unleash Your Creative Universe</title>
+    
+    <!-- SEO Metadata -->
+    <meta name="description" content="Ova: A revolutionary platform where creators, learners, and storytellers converge to share, discover, and transform.">
+    <meta name="keywords" content="free books, free films, creative platform, open publishing, learning, storytelling">
+    
+    <!-- Open Graph Protocol -->
+    <meta property="og:title" content="Ova - Your Creative Playground">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.ova.com">
+    <meta property="og:image" content="/path/to/ova-logo.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="ova.jpg">
+    
+    <!-- Preload Fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" as="style">
+    
+    <!-- Analytics Placeholder -->
+    <script async src="https://analytics.ova.com/tracker.js"></script>
+    
+    <style>
+        :root {
+            --amber-50: #FFFBEB;
+            --amber-100: #FEF3C7;
+            --amber-600: #D97706;
+            --amber-700: #B45309;
+            --amber-800: #92400E;
+            --amber-900: #78350F;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, var(--amber-50) 0%, white 100%);
+            color: var(--amber-900);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            border-bottom: 1px solid var(--amber-100);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 800;
+            font-size: 24px;
+            color: var(--amber-900);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--amber-800);
+            transition: color 0.3s ease;
+        }
+
+        .btn-primary {
+            background-color: var(--amber-600);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .hero {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+            min-height: 80vh;
+        }
+
+        .hero-content h1 {
+            font-size: 3.5rem;
+            color: var(--amber-900);
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .hero-content p {
+            font-size: 1.2rem;
+            color: var(--amber-800);
+            margin-bottom: 30px;
+        }
+
+        .hero-cta {
+            display: flex;
+            gap: 20px;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .feature-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(217, 119, 6, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .feature-card img {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 20px;
+        }
+
+        footer {
+            background-color: var(--amber-100);
+            padding: 50px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <nav class="navbar">
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-amber-700">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+                Ova
+            </div>
+            <div class="nav-links">
+                <a href="launch.html" target="_blank">Launch Date</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Where Stories Are Born, Knowledge Grows</h1>
+                <p>Ova is more than a platform—it's a global creative ecosystem where anyone can publish, learn, and transform the world through storytelling.</p>
+            </div>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <img src="/icons/book.svg" alt="Free Books">
+                    <h3>Free Books</h3>
+                    <p>Publish and discover books across all genres</p>
+                </div>
+                <div class="feature-card">
+                    <img src="/icons/film.svg" alt="Free Films">
+                    <h3>Free Films</h3>
+                    <p>Share and watch independent cinema</p>
+                </div>
+                <div class="feature-card">
+                    <img src="/icons/learn.svg" alt="Learning">
+                    <h3>Learn & Grow</h3>
+                    <p>Interactive courses from global creators</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ova. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Interactive elements placeholder
+        document.addEventListener('DOMContentLoaded', () => {
+            const features = document.querySelectorAll('.feature-card');
+            features.forEach(feature => {
+                feature.addEventListener('mouseenter', function() {
+                    this.style.transform = 'scale(1.05)';
+                });
+                feature.addEventListener('mouseleave', function() {
+                    this.style.transform = 'scale(1)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
